@@ -24,6 +24,14 @@ body {
   color: #CB9B53;
 }
 
+.small-txt {
+  font-size: .70rem;
+}
+
+.med-txt {
+  font-size: 1.25rem;
+}
+
 .large-txt {
   font-size: 1.5rem;
 }
@@ -80,6 +88,8 @@ header{
   margin-right: 10px;
 }
 
+/* Homepage Styling */
+
 .main-img {
   background: url(/images/splash.jpg) no-repeat;
   max-width: 100%;
@@ -90,11 +100,9 @@ header{
   padding: 80px 20px;
 }
 
-/* Homepage Styling */
-
 .box {
   background: #1C1B1E;
-  border-top: 2px solid #CB9B53;
+  border-top: 2px solid #101010;
   text-align: center;
   padding: 30px 20px;
 }
@@ -116,12 +124,36 @@ header{
   text-align: left;
 }
 
-
 /* Contact Page Styling */
 
 .main-title {
   text-align: center;
   padding: 20px 0;
+}
+
+.location,
+.phone {
+  padding: 20px 0;
+  text-align: center;
+  border-top: 2px solid #101010
+}
+
+.phone {
+  background: #1E1C18;
+}
+
+.phone a {
+  color: #C4C4C4;
+  text-decoration: none;
+}
+
+.location a {
+  color: #A57EF2;
+  margin-top: 5px;
+}
+
+.section-title {
+  margin-bottom: 15px;
 }
 
 /* Global Form Styling */
@@ -140,6 +172,7 @@ textarea {
   background: #272727;
   padding: 5px;
   border: 1px solid #101010;
+  color: #C4C4C4;
 }
 
 textarea{

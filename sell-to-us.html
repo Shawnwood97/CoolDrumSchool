@@ -11,7 +11,7 @@
 
   <!-- Links Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
-  <title>Cool Drum School | Sign Up!</title>
+  <title>Cool Drum School | Contact Us!</title>
 </head>
 
 <body>
@@ -21,12 +21,13 @@
     <span>Cool<span class="sec-text"> Drum</span> School</span>
   </header>
 
-  <!-- Sign Up Form -->
 
-  <section class="sign-up">
-    <div class="main-title alt-color b xl-text">Sign Up!</div>
 
-    <div id="signup-form">
+  <section class="sell-to-us">
+    <div class="main-title alt-color b xl-text">Sell Your Insturments!</div>
+
+    <!-- Sell Form -->
+    <div id="sell-form">
       <form action="thank-you.html" class="action">
         <label for="first-name">First Name</label>
         <input type="text" id="first-name" placeholder="First Name..." required>
@@ -36,13 +37,39 @@
         <input type="email" id="email" placeholder="Email Address..." required>
         <label for="phone-number">Phone Number</label>
         <input type="tel" id="phone-number" placeholder=" Phone Number..." minlength="10" maxlength="10" required>
-        <label for="age">Age</label>
-        <input type="number" id="age" placeholder="Age..." required>
-        <label for="hours">How Many Hours To Book</label>
-        <input type="number" id="hours" placeholder="Hours..." required>
-        <label for="dates">Dates and Times Required</label>
-        <textarea rows="5" id="dates" placeholder="Enter Requiements Here..." required></textarea>
-        <input type="submit" value="Submit" class="alt-btn">
+        <label for="sale-item">Item For Sale</label>
+        <input type="text" id="sale-item" placeholder="Enter Item Info..." required>
+
+        <div>
+          <label for="item-cond">Contition</label>
+        </div>
+
+        <div class="radio">
+          <input type="radio" name="condition" id="like-new" value="like-new" required>
+          <label for="like-new">Like New</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="condition" id="lightly-used" value="lightly-used" required>
+          <label for="lightly-used">Lightly Used</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="condition" id="normal-wear" value="normal-wear" required>
+          <label for="normal-wear">Normal Wear</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="condition" id="well-used" value="well-used" required>
+          <label for="well-used">Well Used</label>
+        </div>
+        <div>
+          <label for="price">Desired Price</label>
+        </div>
+        <input type="number" id="price" placeholder="Desired Price..." required>
+
+        <label for="item-picture">Upload A Picture</label><br><br>
+        <input type="file" class="item-upload" id="item-picture" name="item-picture" required>
+        <div>
+          <input type="submit" value="Submit" class="alt-btn">
+        </div>
       </form>
     </div>
 
@@ -56,9 +83,9 @@
       <span class="footer-title">Links:</span>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">Sign Up</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
         <li><a href="contact-us.html">Contact Us</a></li>
-        <li><a href="sell-to-us.html">Sell To Us</a></li>
+        <li><a href="#">Sell To Us</a></li>
         <li><a href="free-videos.html">Free Videos</a></li>
       </ul>
     </div>

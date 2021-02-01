@@ -1,3 +1,5 @@
+/* Global Styling */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +8,7 @@
 
 body {
   color: #C4C4C4;
-
+  background: #1C1B1E;
 }
 
 .main-color {
@@ -88,6 +90,8 @@ header{
   padding: 80px 20px;
 }
 
+/* Homepage Styling */
+
 .box {
   background: #1C1B1E;
   border-top: 2px solid #CB9B53;
@@ -111,6 +115,16 @@ header{
 .box:nth-child(4) p {
   text-align: left;
 }
+
+
+/* Contact Page Styling */
+
+.main-title {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* More Global Styling */
 
 footer {
   background: #1E1C18;

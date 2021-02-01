@@ -137,6 +137,12 @@ input[type=submit] {
   max-width: 90px;
 }
 
+/* Global iframe Styling */
+
+iframe {
+  border: 0;
+}
+
 /* Homepage Styling */
 
 .main-img {
@@ -209,6 +215,18 @@ input[type=submit] {
 
 .item-upload {
   max-width: 180px;
+}
+
+/* Free Lseeons Styling */
+
+.lesson {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #101010
+}
+
+.lesson:nth-child(5) {
+  border-bottom: 0;
 }
 
 /* More Global Styling */

@@ -168,7 +168,7 @@ iframe {
 }
 
 .box:nth-child(even) {
-  background: #1E1C18
+  background: #1E1C18;
 }
 
 .box:nth-child(even) a {
@@ -190,7 +190,7 @@ iframe {
 .phone {
   padding: 20px 0;
   text-align: center;
-  border-top: 2px solid #101010
+  border-top: 2px solid #101010;
 }
 
 .phone {
@@ -221,12 +221,25 @@ iframe {
 
 .lesson {
   text-align: center;
-  padding: 20px;
-  border-bottom: 2px solid #101010
+  padding: 10px;
+  border-bottom: 2px solid #101010;
 }
 
 .lesson:nth-child(5) {
   border-bottom: 0;
+}
+
+.video-embed {
+  width: 100%;
+  height: 200px;
+}
+
+/* Thank You */
+
+.thankyou {
+  min-height: calc(100vh - 348px);
+  text-align: center;
+  padding-top: 100px;
 }
 
 /* More Global Styling */

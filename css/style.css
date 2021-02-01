@@ -115,7 +115,7 @@ header{
 footer {
   background: #1E1C18;
   border-top: 2px solid #CB9B53;
-  padding: 30px 20px;
+  padding: 30px 20px 25px 20px;
   position: relative;
 }
 
@@ -157,4 +157,10 @@ footer li {
 .socials {
   text-align: center;
   margin-top: 120px;
+}
+
+.copyright{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 14px;
 }

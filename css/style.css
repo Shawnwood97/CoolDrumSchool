@@ -11,6 +11,7 @@ body {
 
 .main-color {
   color: #c4c4c4;
+  font-size: 0.8125rem;
 }
 
 .sec-color {
@@ -25,6 +26,10 @@ body {
   font-size: 1.5rem;
 }
 
+.xl-text {
+  font-size: 2.25rem;
+}
+
 .b {
   font-weight: bold;
 }
@@ -36,8 +41,18 @@ body {
   color: #000;
   border: 0;
   border-radius: 5px;
-  max-width: 150px;
-  margin: auto;
+  margin-top:20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.alt-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #A57EF2;
+  color: #000;
+  border: 0;
+  border-radius: 5px;
   margin-top:20px;
   font-size: 1rem;
   font-weight: bold;
@@ -71,4 +86,28 @@ header{
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
+}
+
+.box {
+  background: #1C1B1E;
+  border-top: 2px solid #CB9B53;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.box a {
+  color: #A57EF2;
+  font-weight: bold;
+}
+
+.box:nth-child(even) {
+  background: #1E1C18
+}
+
+.box:nth-child(even) a {
+  color: #CB9B53;
+}
+
+.box:nth-child(4) p {
+  text-align: left;
 }

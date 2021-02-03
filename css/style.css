@@ -113,7 +113,6 @@ textarea {
 .radio {
   display: inline-block;
   margin: 15px 20px;
-  /* width: 20%; */
 }
 
 .radio label {
@@ -162,9 +161,21 @@ iframe {
   padding: 30px 20px;
 }
 
+.box-title {
+  padding-bottom: 25px;
+}
+
 .box a {
   color: #A57EF2;
   font-weight: bold;
+}
+
+.box p {
+  padding-bottom: 10px;
+}
+
+.box .alt-btn {
+  margin-top: 0;
 }
 
 .box:nth-child(even) {
@@ -261,7 +272,7 @@ footer img {
 
 footer ul {
   padding-left: 0;
-  margin-top: 8px;
+  /* margin-top: 8px; */
 }
 
 footer li {
@@ -272,6 +283,7 @@ footer li {
 .footer-title {
   font-size: .9rem;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .footer-links {
